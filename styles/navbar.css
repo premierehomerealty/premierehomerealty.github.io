@@ -1,0 +1,39 @@
+.navbar {
+	position: fixed;
+	font-family: "Roboto Condensed";
+	font-weight: 700;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	height: 75px;
+	width: 100%;
+	z-index: 9999;
+}
+
+.navbar img {
+	padding-left: 45px;
+	height: 98px;
+}
+
+.navbar a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #9797A6;
+	line-height: 75px;
+}
+
+.navbar a:hover {
+	color: #535362;
+}
+
+.navbar ul {
+	float: right;
+	list-style-type: none;
+	height: 75px;
+	margin: 0;
+}
+
+.navbar li {
+	float: left;
+	padding-left: 45px;
+	padding-right: 45px;
+}

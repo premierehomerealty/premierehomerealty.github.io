@@ -1,0 +1,72 @@
+.header {
+	color: white;
+	padding-top: 75px;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/communities/main-background.jpg");
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	display: table;
+}
+
+.header h1, .header p {
+	font-weight: 700;
+}
+
+.header h1 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 68px;
+	text-transform: uppercase;
+	text-shadow: 2px 1px rgba(102,102,102,0.8);
+}
+
+.header p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	color: white;
+	text-shadow: 2px 1px rgba(102,102,102,0.8);
+
+}
+
+.align {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.section {
+	background-color: #FFFFFF;
+	height: 300px;
+	display: table;
+}
+
+.section-content {
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	width: 60%;
+	padding-left: 300px;
+}
+
+.section-content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	float: left;
+}
+
+.section-image img {
+	float: right;
+	height: 270px;
+	width: 270px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 200px;
+}
+
+#switch-left button {
+	height: 50px;
+	width: 200px;
+}

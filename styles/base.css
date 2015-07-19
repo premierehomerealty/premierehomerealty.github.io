@@ -1,0 +1,269 @@
+html, body{
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	font-family: "Roboto";
+	margin: 0;
+	padding: 0;
+	background-color: #F0EFEF;
+}
+
+p {
+	font-weight: 400;
+	font-size: 14px;
+	color: #464646;
+}
+
+ul {
+	list-style-type: none;
+}
+
+form {
+	padding-top: 100px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 88%;
+    padding-top: 75px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#slide-1, #slide-2 {
+	width: 100%;
+    height: 92%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#slide-1 {
+    background-image: url("../images/slideshow/background-2.jpg");
+}
+
+#slide-2 {
+	background-image: url("../images/slideshow/background-1.jpg")
+}
+
+.outer-wrapper {
+	background-color: white;
+	height: 450px;
+	width: 100%;
+}
+
+.inner-wrapper {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#quick-search, #communities {
+	border: 2px solid #464646;
+	padding: 10px;
+}
+
+#quick-search h2, #communities h2 {
+	color: #535362;
+	font-weight: 500;
+	font-size: 28px;
+}
+
+#quick-search {
+    line-height:30px;
+    background-color: transparent;
+    height:300px;
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+}
+
+#communities {
+    line-height:30px;
+    background-color: transparent;
+    height:300px;
+    width:55%;
+    margin: 0 auto;
+    float: right;
+}
+
+#current-listings {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 75px;
+}
+
+#current-listings h1 {
+	text-transform: uppercase;
+	font-family: "Roboto Condensed";
+	font-size: 32px;
+	font-weight: 700;
+	color: #384e56;
+}
+
+#current-listings ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#current-listings li {
+	display: inline-block;
+}
+
+.listing-item {
+	text-align: center;
+	background-color: white;
+	padding: 0;
+	height: 450px;
+  	width: 350px;
+  	margin-left: 25px;
+  	margin-right: 25px;
+  	margin-top: 25px;
+  	margin-bottom: 25px;
+}
+
+.listing-item p {
+	line-height: 20px;
+}
+
+p.bold {
+	font-weight: 700;
+	margin-bottom: 35px;
+}
+
+.listing-item img {
+	width: 350px;
+}
+
+/*.footer {
+    background-color:black;
+    clear: both;
+	width: 100%;
+	height: 50px;
+    text-align:center;	 
+}*/
+
+/* Buttons */
+.button-dark, .button-red {
+	font-family: "Roboto Condensed";
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/* Dark Button */
+.button-dark {
+	max-width: 200px;
+	font-size: 14px;
+	color: #464646;
+	border: 2px solid #464646;
+	border-radius: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: transparent;
+	transition: all 0.1s ease;
+}
+
+.button-dark:hover {
+	transition: all 0.3s ease;
+	color: #ffffff;
+  	background-color: rgba(70, 70, 70, 0.9);
+}
+
+/* Red Button */
+.button-red {
+	font-size: 18px;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #F24A3D;
+}
+
+.content {
+	width: 95%;
+	height: 95%;
+	margin: 0 auto;
+}
+
+.content h1 {
+	margin: 0;
+	padding-top: 110px;
+	color: #F24A3D;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+.content h3 {
+	font-size: 18px;
+	color: #363636;
+}
+
+p.content-description {
+	width: 75%;
+}
+
+#our-agents {
+	text-align: center;
+}
+
+#our-agents li {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#agents-list {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.agent-profile {
+	height: 250px;
+	width: 200px;
+}
+
+.agent-profile img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+}
+
+.agent-profile p {
+	line-height: 24px;
+	font-size: 14px;
+}
+
+.agent-profile h3 {
+	font-size: 18px;
+	color: #363636;
+}
