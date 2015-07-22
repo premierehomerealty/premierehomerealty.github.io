@@ -66,19 +66,14 @@
 	padding-right: 200px;
 }
 
-#switch-left {
-	width: 15%;
+.flexbox-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex: 10;
 }
 
-#switch-left button {
-	height: 50px;
-	width: 100%;
-	float: left;
-}
-
-#switch-right img {
-	height: 500px;
-	width: 85%;
-	display: inline-block;
-	float: right;
+.flex-item {
+	flex: 1;
 }
