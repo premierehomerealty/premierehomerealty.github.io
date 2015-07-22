@@ -72,8 +72,13 @@
 	justify-content: center;
 	align-items: center;
 	flex: 10;
+	padding-bottom: 25px;
 }
 
 .flex-item {
 	flex: 1;
+}
+
+#complete-nav {
+	text-align: center;
 }
