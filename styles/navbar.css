@@ -37,3 +37,15 @@
 	padding-left: 45px;
 	padding-right: 45px;
 }
+
+@media (max-width: 640px) {
+  .wall-column {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .wall-column {
+    width: auto;
+    float: none;
+  }
+}
