@@ -14,6 +14,7 @@
 
 	<link rel="stylesheet" type="text/css" href="styles\navbar.css">
 	<link rel="stylesheet" type="text/css" href="styles\base.css">
+	<link rel="stylesheet" type="text/css" href="styles\waterfall.css">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
 		<a href="index.html"><img src="images\logo2.png"></a>
 		<ul>
 			<li><a href="about-us.html">About Us</a></li>
-			<li><a href="our-agents.html">Our Agents</a></li>
+			<li><a href="our-agents.html">Our Team</a></li>
 			<!-- <li><a href="classes.html">Classes &amp; Training</a></li> -->
 			<li><a href="buyer-seller.html">Buyer/Seller</a></li>
 			<li><a href="community.html">Community</a></li>
@@ -31,7 +32,30 @@
 	<div class="content">
 		<h1>About Us</h1>
 		<p class="content-description">Signature Home Realty is a locally owned and operated real estate brokerage company servicing Virginia, Maryland, and District of Columbia. Our cutting edge technology and a commitment to superior customer service has set us apart from our competition. Our goal is to give excellent service to the diverse community in the Washington DC Metropolitan area. <br><br>As one of the major key players and trusted real estate professionals in the industry, we have helped a number of local home buyers and sellers. We work with many different ethnic families and offer a full variety of real estate services (buying, selling, property management, auction &amp; foreclosure, real estate investment and other services). Our acquired negotiable skills, experiences and connections have helped us to easily find customers their right home, sell their property and even handle real estate foreclosure. We match our customers to real estate agents who are experienced in handling your specific need. Our agents will be able to communicate in your language, and understand your culture &amp; customs. <br><br>As a highly-skilled team of real estate professionals, we make sure that we educate you with all the things that you need as a home buyer and seller, and provide sound in Maryland, Washington DC, &amp; Virginia.</p>
+	
+		<br />
+		<br />
+		<div class="wall">
+		  <a class="article" href="images/activity/1.jpg" target="_blank"><img src="images/activity/1.jpg" /></a>
+		  <a class="article" href="images/activity/2.jpg" target="_blank"><img src="images/activity/2.jpg" /></a>
+		  <a class="article" href="images/activity/3.jpg" target="_blank"><img src="images/activity/3.jpg" /></a>
+		  <a class="article" href="images/activity/4.jpg" target="_blank"><img src="images/activity/4.jpg" /></a>
+		  <a class="article" href="images/activity/5.jpg" target="_blank"><img src="images/activity/5.jpg" /></a>
+		  <a class="article" href="images/activity/6.jpg" target="_blank"><img src="images/activity/6.jpg" /></a>
+		  <a class="article" href="images/activity/7.jpg" target="_blank"><img src="images/activity/7.jpg" /></a>
+		  <a class="article" href="images/activity/8.jpg" target="_blank"><img src="images/activity/8.jpg" /></a>
+		  <a class="article" href="images/activity/9.jpg" target="_blank"><img src="images/activity/9.jpg" /></a>
+		  <a class="article" href="images/activity/10.jpg" target="_blank"><img src="images/activity/10.jpg" /></a>
+		</div>
+	
 	</div>
-</body>
 
+</body>
+	<script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="scripts/jaliswall.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$('.wall').jaliswall({ item: '.article' });
+	});
+	</script>
 </html>
